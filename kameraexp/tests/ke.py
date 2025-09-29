@@ -75,6 +75,7 @@ def test_primelenses():
     primelens = driver.find_element(By.XPATH,'//*[@id="__layout"]/div/div[1]/div[1]/div[2]/div[2]/div/div[1]/nav/div/div/div/div/ul[1]/li[2]/a')
     primelens.click()
     driver.back()
+    time.sleep(2)
 
 # # def test_zoomlenses():
 # #     test_products()
